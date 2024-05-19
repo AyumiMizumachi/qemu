@@ -1,0 +1,90 @@
+{
+	"stdlib": [
+		{ "name": "printf", "url": "https://ja.manpages.org/printf/3" }
+	,	{ "name": "fprintf", "url": "https://ja.manpages.org/printf/3" }
+	,	{ "name": "abort", "url": "https://ja.manpages.org/abort/3" }
+	,	{ "name": "exit", "url": "https://ja.manpages.org/exit/3" }
+	,	{ "name": "atexit", "url": "https://ja.manpages.org/atexit/3" }
+	,	{ "name": "assert", "url": "https://ja.manpages.org/assert/3" }
+	,	{ "name": "perror", "url": "https://ja.manpages.org/perror/3" }
+	,	{ "name": "strcmp", "url": "https://ja.manpages.org/strcmp/3" }
+	,	{ "name": "strncmp", "url": "https://ja.manpages.org/strncmp/3" }
+	,	{ "name": "strlen", "url": "https://ja.manpages.org/strlen/3" }
+	,	{ "name": "shm_open", "url": "https://ja.manpages.org/shm_open/3" }
+	,	{ "name": "shm_unlink", "url": "https://ja.manpages.org/shm_open/3" }
+	,	{ "name": "memcpy", "url": "https://ja.manpages.org/memcpy/3" }
+	,	{ "name": "memset", "url": "https://ja.manpages.org/memset/3" }
+	,	{ "name": "strchr", "url": "https://ja.manpages.org/strchr/3" }
+	,	{ "name": "realpath", "url": "https://ja.manpages.org/realpath/3" }
+	,	{ "name": "strtol", "url": "https://ja.manpages.org/strtol/3" }
+	,	{ "name": "strtoll", "url": "https://ja.manpages.org/strtol/3" }
+	,	{ "name": "getnameinfo", "url": "https://ja.manpages.org/getnameinfo/3" }
+	,	{ "name": "atoi", "url": "https://ja.manpages.org/atoi/3" }
+	,	{ "name": "fopen", "url": "https://ja.manpages.org/fopen/3" }
+	,	{ "name": "strerror", "url": "https://ja.manpages.org/strerror/3" }
+	,	{ "name": "fclose", "url": "https://ja.manpages.org/fclose/3" }
+	,	{ "name": "strrchr", "url": "https://ja.manpages.org/strrchr/3" }
+	,	{ "name": "sigemptyset", "url": "https://ja.manpages.org/sigemptyset/3" }
+	,	{ "name": "sigaddset", "url": "https://ja.manpages.org/sigemptyset/3" }
+	,	{ "name": "sigfillset", "url": "https://ja.manpages.org/sigfillset/3" }
+	],
+	"linuxlib": [
+		{ "name": "sendmsg", "url": "https://ja.manpages.org/sendmsg/2" }
+	,	{ "name": "msync", "url": "https://ja.manpages.org/msync/2" }
+	,	{ "name": "mlock", "url": "https://ja.manpages.org/mlock/2" }
+	,	{ "name": "munlock", "url": "https://ja.manpages.org/mlock/2" }
+	,	{ "name": "shmctl", "url": "https://ja.manpages.org/shmctl/2" }
+	,	{ "name": "shmget", "url": "https://ja.manpages.org/shmget/2" }
+	,	{ "name": "shmat", "url": "https://ja.manpages.org/shmat/2" }
+	,	{ "name": "shmdt", "url": "https://ja.manpages.org/shmat/2" }
+	,	{ "name": "getuid", "url": "https://ja.manpages.org/getuid/2" }
+	,	{ "name": "geteuid", "url": "https://ja.manpages.org/geteuid/2" }
+	,	{ "name": "getegid", "url": "https://ja.manpages.org/getegid/2" }
+	,	{ "name": "stat", "url": "https://ja.manpages.org/stat/2" }
+	,	{ "name": "fstat", "url": "https://ja.manpages.org/stat/2" }
+	,	{ "name": "lseek", "url": "https://ja.manpages.org/lseek/2" }
+	,	{ "name": "read", "url": "https://ja.manpages.org/read/2" }
+	,	{ "name": "write", "url": "https://ja.manpages.org/write/2" }
+	,	{ "name": "open", "url": "https://ja.manpages.org/open/2" }
+	,	{ "name": "access", "url": "https://ja.manpages.org/access/2" }
+	,	{ "name": "getgroups", "url": "https://ja.manpages.org/getgroups/2" }
+	,	{ "name": "umask", "url": "https://manpages.org/umask/2" }
+	,	{ "name": "listen", "url": "https://ja.manpages.org/listen/2" }
+	,	{ "name": "close", "url": "https://ja.manpages.org/close/2" }
+	,	{ "name": "unlink", "url": "https://ja.manpages.org/unlink/2" }
+	,	{ "name": "fsync", "url": "https://ja.manpages.org/fsync/2" }
+	,	{ "name": "getpgid", "url": "https://ja.manpages.org/getpgid/2" }
+	,	{ "name": "prctl", "url": "https://ja.manpages.org/prctl/2" }
+	,	{ "name": "sigaction", "url": "https://ja.manpages.org/sigaction/2" }
+	,	{ "name": "sigprocmask", "url": "https://ja.manpages.org/sigprocmask/2" }
+	,	{ "name": "clone", "url": "https://ja.manpages.org/clone/2" }
+	],
+	"glib": [
+		{ "name": "g_free", "url": "https://docs.gtk.org/glib/func.free.html" }
+	,	{ "name": "g_try_new0", "url": "https://docs.gtk.org/glib/func.try_new0.html" }
+	,	{ "name": "g_try_malloc", "url": "https://docs.gtk.org/glib/func.try_malloc.html" }
+	,	{ "name": "g_malloc0", "url": "https://docs.gtk.org/glib/func.malloc0.html" }
+	,	{ "name": "g_malloc", "url": "https://docs.gtk.org/glib/func.malloc.html" }
+	,	{ "name": "g_realloc", "url": "https://docs.gtk.org/glib/func.realloc.html" }
+	,	{ "name": "g_strdup_vprintf", "url": "https://docs.gtk.org/glib/func.strdup_vprintf.html" }
+	,	{ "name": "g_test_message", "url": "https://docs.gtk.org/glib/func.test_message.html" }
+	,	{ "name": "g_test_initialized", "url": "https://docs.gtk.org/glib/func.test_initialized.html" }
+	,	{ "name": "g_test_subprocess", "url": "https://docs.gtk.org/glib/func.test_subprocess.html" }
+	,	{ "name": "g_try_new", "url": "https://docs.gtk.org/glib/func.try_new.html" }
+	,	{ "name": "g_strdup", "url": "https://docs.gtk.org/glib/func.strdup.html" }
+	,	{ "name": "g_string_free", "url": "https://docs.gtk.org/glib/method.String.free.html" }
+	,	{ "name": "g_strdup_printf", "url": "https://docs.gtk.org/glib/func.strdup_printf.html" }
+	,	{ "name": "g_list_foreach", "url": "https://docs.gtk.org/glib/type_func.List.foreach.html" }
+	,	{ "name": "g_list_free", "url": "https://docs.gtk.org/glib/type_func.List.free.html" }
+	,	{ "name": "g_new0", "url": "https://docs.gtk.org/glib/func.new0.html" }
+	,	{ "name": "g_new", "url": "https://docs.gtk.org/glib/func.new.html" }
+	,	{ "name": "g_strcmp0", "url": "https://docs.gtk.org/glib/func.strcmp0.html" }
+	,	{ "name": "g_str_has_suffix", "url": "https://docs.gtk.org/glib/func.str_has_suffix.html" }
+	,	{ "name": "g_str_has_prefix", "url": "https://docs.gtk.org/glib/func.str_has_prefix.html" }
+	,	{ "name": "g_strsplit", "url": "https://docs.gtk.org/glib/func.strsplit.html" }
+	,	{ "name": "g_strfreev", "url": "https://docs.gtk.org/glib/func.strfreev.html" }
+	,	{ "name": "g_slist_free", "url": "https://docs.gtk.org/glib/struct.SList.html" }
+	,	{ "name": "g_slist_prepend", "url": "https://docs.gtk.org/glib/type_func.SList.prepend.html" }
+	,	{ "name": "g_usleep", "url": "https://docs.gtk.org/glib/func.usleep.html" }
+	]
+}
